@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIFE OS | Misiones</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <!-- MENU LATERAL -->
+        <aside class="sidebar">
+
+            <h2 class="logo">⚡LIFE <span>OS</span></h2>
+
+            <nav>
+                <a href="index.html">🏠 Inicio</a>
+                <a href="habitos.html">📅 Hábitos</a>
+                <a href="estudios.html">📚 Estudios</a>
+                <a href="misiones.html" class="activo">⚔️ Misiones</a>
+                <a href="estadisticas.html">📊 Estadísticas</a>
+                <a href="diario.html">📖 Diario</a>
+            </nav>
+
+            <div class="sidebar-final">
+                <p>SAIYAJIN × SHINOBI</p>
+            </div>
+
+        </aside>
+
+
+        <!-- CONTENIDO PRINCIPAL -->
+        <main class="contenido">
+
+            <header class="encabezado">
+                <div>
+                    <h1>Centro de Misiones ⚔️</h1>
+                    <p>Supera tus retos y aumenta tu poder.</p>
+                </div>
+
+                <div class="nivel">
+                    <span>⚡ MODO ENTRENAMIENTO</span>
+                    <strong>Guerrero en formación</strong>
+                </div>
+            </header>
+
+
+            <!-- BANNER -->
+            <section class="banner-misiones">
+
+                <div>
+                    <p class="etiqueta">TU SIGUIENTE DESAFÍO</p>
+                    <h2>¡Demuestra tu verdadero potencial!</h2>
+                    <p>
+                        Cada misión completada te acerca a tu
+                        siguiente transformación.
+                    </p>
+                </div>
+
+                <img src="img/vegeta.png" alt="Vegeta">
+
+            </section>
+
+
+            <!-- RESUMEN -->
+            <section class="estadisticas">
+
+                <div class="tarjeta">
+                    <p>Misiones disponibles</p>
+                    <h2 id="misionesDisponibles">0</h2>
+                </div>
+
+                <div class="tarjeta">
+                    <p>Misiones completadas</p>
+                    <h2 id="misionesCompletadas">0</h2>
+                </div>
+
+                <div class="tarjeta">
+                    <p>XP conseguido</p>
+                    <h2 id="xpMisiones">0 XP</h2>
+                </div>
+
+            </section>
+
+
+            <!-- MISIONES DIARIAS -->
+            <section class="seccion-misiones">
+
+                <div class="titulo-seccion">
+                    <div>
+                        <h2>🔥 Misiones diarias</h2>
+                        <p>Retos que debes superar cada día.</p>
+                    </div>
+
+                    <span>RENOVACIÓN DIARIA</span>
+                </div>
+
+                <div id="listaDiarias" class="lista-misiones">
+                </div>
+
+            </section>
+
+
+            <!-- MISIONES SEMANALES -->
+            <section class="seccion-misiones">
+
+                <div class="titulo-seccion">
+                    <div>
+                        <h2>🥷 Misiones semanales</h2>
+                        <p>Desafíos para demostrar tu disciplina.</p>
+                    </div>
+
+                    <span>RENOVACIÓN SEMANAL</span>
+                </div>
+
+                <div id="listaSemanales" class="lista-misiones">
+                </div>
+
+            </section>
+
+
+            <!-- MISIONES ESPECIALES -->
+            <section class="seccion-misiones">
+
+                <div class="titulo-seccion">
+                    <div>
+                        <h2>⭐ Misiones especiales</h2>
+                        <p>Grandes objetivos que requieren esfuerzo.</p>
+                    </div>
+
+                    <span>RETOS PERMANENTES</span>
+                </div>
+
+                <div id="listaEspeciales" class="lista-misiones">
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+    <script src="temporada.js"></script>
+    <script src="misiones.js"></script>
+
+</body>
+</html>

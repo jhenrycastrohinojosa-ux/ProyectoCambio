@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LIFE OS | Estudios</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <!-- MENU LATERAL -->
+        <aside class="sidebar">
+
+            <h2 class="logo">LIFE <span>OS</span></h2>
+
+            <nav class="menu">
+
+                <a href="index.html">🏠 Inicio</a>
+                <a href="habitos.html">🔥 Hábitos</a>
+                <a href="estudios.html" class="activo">🎓 Estudios</a>
+                <a href="misiones.html">🎯 Misiones</a>
+                <a href="estadisticas.html">📊 Estadísticas</a>
+                <a href="diario.html">📖 Mi diario</a>
+
+            </nav>
+
+            <div class="perfil">
+                <h3>GUERRERO</h3>
+                <p>Entrenamiento académico</p>
+            </div>
+
+        </aside>
+
+
+        <!-- CONTENIDO PRINCIPAL -->
+        <main class="contenido">
+
+            <header class="encabezado">
+
+                <div>
+                    <h1>Centro de Estudios</h1>
+                    <p>El conocimiento es tu mejor entrenamiento.</p>
+                </div>
+
+                <div class="rango">
+                    🥷 CAMINO DEL SABER
+                </div>
+
+            </header>
+
+
+            <!-- PERSONAJE PRINCIPAL -->
+            <section class="banner-estudios">
+
+                <div class="texto-banner">
+
+                    <span>ENTRENAMIENTO ACADÉMICO</span>
+
+                    <h2>¡El conocimiento te hace más fuerte!</h2>
+
+                    <p>
+                        Cada tema aprendido es un paso más cerca
+                        de convertirte en un gran ingeniero.
+                    </p>
+
+                </div>
+
+                <div class="personaje-estudios">
+                    <img src="img/kakashi.png" alt="Kakashi">
+                </div>
+
+            </section>
+
+
+            <!-- RESUMEN -->
+            <section class="estadisticas">
+
+                <div class="tarjeta-estadistica">
+                    <h3>📚</h3>
+                    <p>Cursos</p>
+                    <h2 id="totalCursos">5</h2>
+                </div>
+
+                <div class="tarjeta-estadistica">
+                    <h3>📝</h3>
+                    <p>Tareas pendientes</p>
+                    <h2 id="tareasPendientes">0</h2>
+                </div>
+
+                <div class="tarjeta-estadistica">
+                    <h3>⚡</h3>
+                    <p>XP académico</p>
+                    <h2 id="xpAcademico">0 XP</h2>
+                </div>
+
+            </section>
+
+
+            <!-- MIS CURSOS -->
+            <section class="seccion-estudios">
+
+                <h2>📚 Mis cursos SENATI</h2>
+
+                <div class="cursos-grid">
+
+                    <div class="tarjeta-curso">
+                        <h3>💻 Algoritmos y Programación</h3>
+                        <p>Aprende lógica y programación.</p>
+                    </div>
+
+                    <div class="tarjeta-curso">
+                        <h3>🌐 Frontend Developer Web</h3>
+                        <p>Construye páginas web.</p>
+                    </div>
+
+                    <div class="tarjeta-curso">
+                        <h3>🗄️ Database Foundations</h3>
+                        <p>Aprende bases de datos Oracle.</p>
+                    </div>
+
+                    <div class="tarjeta-curso">
+                        <h3>⚙️ Sistemas Operativos</h3>
+                        <p>Conoce el funcionamiento de los sistemas.</p>
+                    </div>
+
+                    <div class="tarjeta-curso">
+                        <h3>🌐 Comunicación de Datos</h3>
+                        <p>Aprende sobre redes y comunicación.</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- TAREAS -->
+            <section class="seccion-estudios">
+
+                <h2>📝 Mis tareas</h2>
+
+                <div class="formulario-tarea">
+
+                    <input
+                        type="text"
+                        id="nombreTarea"
+                        placeholder="Escribe el nombre de tu tarea"
+                    >
+
+                    <select id="cursoTarea">
+
+                        <option value="">Selecciona un curso</option>
+                        <option>Algoritmos y Programación</option>
+                        <option>Frontend Developer Web</option>
+                        <option>Database Foundations</option>
+                        <option>Sistemas Operativos</option>
+                        <option>Comunicación de Datos</option>
+
+                    </select>
+
+                    <input type="date" id="fechaTarea">
+
+                    <button id="btnAgregarTarea">
+                        + Agregar tarea
+                    </button>
+
+                </div>
+
+                <div id="listaTareas"></div>
+
+            </section>
+
+        </main>
+
+    </div>
+    <script src="temporada.js"></script>
+    <script src="estudios.js"></script>
+</body>
+
+</html>
